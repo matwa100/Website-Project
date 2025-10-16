@@ -28,3 +28,8 @@ REACT TUTORIAL: https://www.w3schools.com/REACT/DEFAULT.ASP
 CSS GUIDE: https://www.w3schools.com/css/
 HTML GUIDE: https://www.w3schools.com/html/
 
+COMMAND TO RUN CODE (make sure you use cd and ls command to get into where the project is and run command):
+npm run dev
+
+SHORTCUT TO STOP CODE
+ctrl + 'C'
