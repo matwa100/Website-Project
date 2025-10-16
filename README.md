@@ -22,3 +22,9 @@ Projects Page
 
 Blog Page (optional)
 - Possible blog of your journeys personally and professionally
+
+WEBPAGE LINKS TO GET STARTED:
+REACT TUTORIAL: https://www.w3schools.com/REACT/DEFAULT.ASP
+CSS GUIDE: https://www.w3schools.com/css/
+HTML GUIDE: https://www.w3schools.com/html/
+
