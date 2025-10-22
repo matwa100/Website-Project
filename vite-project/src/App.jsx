@@ -14,7 +14,8 @@ function App() {
       </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          i figured out how to add the horse <br></br>
+         {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
