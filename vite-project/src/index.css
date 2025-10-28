@@ -67,8 +67,3 @@ button:focus-visible {
   }
 }
 
-@font-face {
-  font-family: "Norwester";
-  src:local("norwester.otf")
-  url('./assets/fonts/norwester/norwester.otf')
-}
