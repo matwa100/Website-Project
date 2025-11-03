@@ -3,29 +3,34 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './navbar'
+import Home from './assets/pages/Home'
+import About from './assets/pages/About'
+import Contact from './assets/pages/Contact'
+import{ BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
   return ( 
     <>
-    <Navbar />
-    <img src="/horse-horses.gif"></img>
-      <h1>hello</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          i figured out how to add the horse <br></br>
-         {count}
-        </button>
+    <BrowserRouter>
 
-        <p> {/** Essentially <p> is paragraph */}
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <nav className='nav'>
+        <Link to='/'>Home</Link>|{" "} 
+        <Link to='/about'>About</Link>|{" "}
+        <Link to='/contact'>Contact</Link>
+      </nav>   
 
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>    
+
+    </BrowserRouter>
+  
+
     </>
   )
 }

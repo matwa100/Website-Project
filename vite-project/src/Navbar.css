@@ -1,0 +1,41 @@
+.nav{
+    background-color:burlywood;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    
+
+}
+
+.nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  gap: 1rem;
+  top : 0;
+  position: sticky;
+}
+
+.nav ul li {
+ float:left;
+}
+
+.nav li.active{
+  background-color: antiquewhite;
+  
+}
+
+.nav a{
+  display: flex;
+  color: white;
+  text-align:center;
+  padding: 0.75rem;
+  text-decoration: none;
+  
+}
+
+.nav li:hover{
+  background-color: bisque;
+}
