@@ -6,6 +6,8 @@ import Navbar from './navbar'
 import Home from './assets/pages/Home'
 import About from './assets/pages/About'
 import Contact from './assets/pages/Contact'
+import Experience from './assets/pages/Experience'
+import Projects from './assets/pages/Projects'
 import{ BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 
@@ -17,14 +19,18 @@ function App() {
     <BrowserRouter>
 
       <nav className='nav'>
-        <Link to='/'>Home</Link>|{" "} 
-        <Link to='/about'>About</Link>|{" "}
+        <Link to='/'>Home</Link>{" "} 
+        <Link to='/about'>About</Link>{" "}
+        <Link to='/experience'>Experience</Link>{" "}
+        <Link to='/projects'>Projects</Link>{" "}
         <Link to='/contact'>Contact</Link>
       </nav>   
 
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/experience' element={<Experience />} />
+        <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>    
 
