@@ -1,4 +1,3 @@
-import "./Navbar.css"
 
 // don't need this anymore
 // just keeping it as reference
