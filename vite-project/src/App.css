@@ -1,5 +1,5 @@
 #root {
-  width: 100vw;
+  width: 80vw;
   height: 100vw;
   margin: 0 auto;
   padding: 2rem;
@@ -33,11 +33,11 @@
 
 h1 {
   font-family: 'Trebuchet MS', Arial, sans-serif;
-  color:burlywood
+  color:rgb(243, 153, 90)
 }
 
 .nav{
-  background-color:burlywood;
+  background-color:rgb(243, 153, 90);
   display: flex;
   gap: 2rem;
   padding: 0;
@@ -53,4 +53,25 @@ h1 {
   text-align:center;
   padding: 0.75rem;
   text-decoration: none;
+}
+
+.gol{
+  background-color: rgb(34, 31, 46);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.try{
+  width: 500px;
+  text-align: left;
+  padding-left: 30px;
+}
+.horse1{
+  float:right;
+  margin-right: 100px;
+}
+.abtheader{
+  text-align: left;
+  width:500px;
+  padding-left: 30px;
 }

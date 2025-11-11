@@ -16,6 +16,7 @@ function App() {
 
   return ( 
     <>
+    <div className="bg"></div>
     <BrowserRouter>
 
       <nav className='nav'>
